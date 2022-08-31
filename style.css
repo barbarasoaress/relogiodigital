@@ -5,7 +5,8 @@
     box-sizing: border-box;
     font-family:'League Gothic', sans-serif;
 }
-body{
+body
+{
     display: flex;
     justify-content: center;
     align-items: center;
