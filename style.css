@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gloria+Hallelujah&family=Gochi+Hand&family=League+Gothic&family=Patrick+Hand&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'League Gothic', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+}
+h2
+{
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 100px;
+    color: #fff;
+    font-size:2em;
+    font-family: 'Amatic SC', cursive;
+}
+h3
+{
+    position: absolute;
+    width: auto;
+    height: 100px;
+    top: 50px;
+    color: #fff;
+    font-size:3em;
+    font-family: 'Amatic SC', cursive;
+}
+#time{
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+#time .circulo 
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time .circulo svg
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+#time .circulo svg circle
+{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke: #191919;
+    stroke-width: 4;
+    transform: translate(5px,5px);
+}
+#time .circulo svg circle:nth-child(2)
+{
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+}
+#time div
+{
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+#time .ap
+{
+    position: relative;
+    font: 1em;
+    transform: translateX(-20px);
+}
